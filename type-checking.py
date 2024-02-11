@@ -104,3 +104,10 @@ class User(BaseModel):
     id: int
     name = 'Tad'
     friends: list[int] = []
+
+
+"""
+Faqat izohli deklaratsiya Pydanticga int turiga ega id maydoni zarurligi haqida xabar beradi.
+Mumkin bo'lsa, satrlar, baytlar yoki floatlar int bo'lishga majbur bo'ladi
+Nom shart emas, chunki u standartga ega va belgilangan standartdan satr sifatida chiqariladi.
+"""
