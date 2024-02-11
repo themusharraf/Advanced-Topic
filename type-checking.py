@@ -11,7 +11,7 @@ int_value = 123
 """
 type()
 Python funktsiyasi type() o'zgaruvchilar turlarini aniqlash uchun ishlatilishi mumkin.
- Ish vaqti disk raskadrovka paytida dasturda aniq o'zgaruvchilar turlarini topish uchun type() funksiyasidan foydalaning.
+Ish vaqti disk raskadrovka paytida dasturda aniq o'zgaruvchilar turlarini topish uchun type() funksiyasidan foydalaning.
 """
 
 print(type(str_value))
